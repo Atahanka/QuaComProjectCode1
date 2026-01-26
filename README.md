@@ -13,11 +13,13 @@ The code was tested with Python 3.10 or newer.
 
 (Optional) Create and activate a virtual environment:
 
+```bash
 python -m venv .venv  
 source .venv/bin/activate
 
 Install the required dependencies:
 
+```bash
 pip install qiskit qiskit-aer numpy scipy matplotlib pandas
 
 No access to real quantum hardware is required.
@@ -28,6 +30,7 @@ No access to real quantum hardware is required.
 
 All experiments are controlled from a single script.
 
+```bash
 cd code  
 python vqe_experiments.py
 
@@ -53,6 +56,7 @@ results.csv
 
 After the experiments finish, generate the figures used in the report by running:
 
+```bash
 python plotting.py
 
 This script reads results.csv and produces the following plots:
